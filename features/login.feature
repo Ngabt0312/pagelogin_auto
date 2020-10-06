@@ -13,7 +13,7 @@ Scenario Outline: invalid login
     Then message display "<mess>"
 
 Examples: case
-    |username   |password               |mess                    |
+    |username   |password               |mess                       |
     |123a@      |SuperSecretPassword!   |Your username is invalid!  |
     |123        |123                    |Your username is invalid!  |
     |123456     |SuperSecretPassword!   |Your username is invalid!  |
